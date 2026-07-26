@@ -11,7 +11,8 @@
 
     .Mainbody          {overflow-y: auto; margin-top: 60px;}
 
-    .Bodyblock         {box-sizing: border-box; margin: 0; columns: 2}
+    .Bodyblock         {box-sizing: border-box; margin: 0; display: grid; grid-template-columns: 1fr 1fr;}
+    .Bodyblockcolumn   {}
 
 
 
@@ -70,37 +71,39 @@
 <div class = "Bodyblock">
   <h3>Skills and Experise</h4>
     <div class = "Bodyblock">
-      <h4>Supply Chain</h4>
-      <ul>
-        <li>Procurement</li>
-        <li>Vendor relations</li>
-        <li>Forecasting</li>
-        <li>ERP systems</li>
-        <li>Data organization / Storage</li>
-        <li>Data Presentation</li>
-      </ul>
+      <div class = "Bodyblockcolumn">
+        <h4>Supply Chain</h4>
+        <ul>
+          <li>Procurement</li>
+          <li>Vendor relations</li>
+          <li>Forecasting</li>
+          <li>ERP systems</li>
+          <li>Data organization / Storage</li>
+          <li>Data Presentation</li>
+        </ul>
+  
+        <h4>Technology</h4>
+        <ul>
+          <li>Java</li>
+          <li>HTML / CSS</li>
+          <li>Javascript</li>
+          <li>SQL</li>
+          <li>Data Analysis</li>
+          <li>System Design</li>
+        </ul>
+      </div>
 
-      <h4>Technology</h4>
-      <ul>
-        <li>Java</li>
-        <li>HTML / CSS</li>
-        <li>Javascript</li>
-        <li>SQL</li>
-        <li>Data Analysis</li>
-        <li>System Design</li>
-      </ul>
-
-
-      <div class = "Break"></div>
-
-      <h4>Tools</h4>
-      <ul>
-        <li>SAP</li>
-        <li>Sage</li>
-        <li>WM</li>
-        <li>Excel</li>
-        <li>Git/Github</li>
-      </ul>
+      <div class = "bodyblockcolumn">
+        <h4>Tools</h4>
+        <ul>
+          <li>SAP</li>
+          <li>Sage</li>
+          <li>WM</li>
+          <li>Excel</li>
+          <li>Git/Github</li>
+        </ul>
+      </div>
+    </div>
       
 
 
