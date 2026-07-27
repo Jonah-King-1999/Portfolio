@@ -6,7 +6,7 @@
 	
 	
 	body               {padding: 0px; margin: 0px;}
-    .Headerbar         {width: 100%; margin: 0; position: fixed; top:0; z-index: 100;}
+    .Headerbar         {width: 100%; margin: 0; position: fixed; top:0; z-index: 100; background-color: white;}
 	.Headerbar h4		{margin-left: 5%; margin-right: 5%}
 	.Headerbar h1		{margin-left: 5%; margin-right: 5%}
     .Navbar            {display: flex; justify-content: center; gap: 25px; background-color: #4A3728; padding: 15px; width: 100%; margin: 0; }
