@@ -11,7 +11,7 @@
     .Navbar a          {color: #F6F0E2; text-decoration: none; font-weight: bold; transition: color 0.2s;}
     .Navbar a:hover    {color: #4A3766}
 
-    .Mainbody          {overflow-y: auto; margin-top: 120px;}
+    .Mainbody          {overflow-y: auto; margin-top: 150px;}
 
     .Bodyblock         {box-sizing: border-box; margin: 0; display: grid; grid-template-columns: 1fr 1fr;}
 	.Bodyblockstraight	{}
