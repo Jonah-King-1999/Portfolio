@@ -5,12 +5,12 @@
 	*, *::before, *::after {box-sizing: border-box;}
 	
 	
-	body               {padding: 0px; margin: 0px; background-color: #DDAAAA;}
+	body               {padding: 0px; margin: 0px; background-color: #F5F0E6;}
 	img					{width: 35vw;}
     .Headerbar         {width: 100%; margin: 0; position: fixed; top:0; z-index: 100; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
 	.Headerbar h4		{margin-left: 5%; margin-right: 5%}
 	.Headerbar h1		{margin-left: 5%; margin-right: 5%}
-    .Navbar            {display: flex; justify-content: center; gap: 25px; background-color: #4A3728; padding: 15px; width: 100%; margin: 0; }
+    .Navbar            {display: flex; justify-content: center; gap: 25px; background-color: #F5F0E6; padding: 15px; width: 100%; margin: 0; }
     .Navbar a          {color: #F6F0E2; text-decoration: none; font-weight: bold; transition: color 0.2s;}
     .Navbar a:hover    {color: #4A3766}
 
