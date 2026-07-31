@@ -5,7 +5,7 @@
 	*, *::before, *::after {box-sizing: border-box;}
 	
 	
-	body               {padding: 0px; margin: 0px; background-color: red;}
+	body               {padding: 0px; margin: 0px; background-color: #FF5555;}
 	img					{width: 35vw;}
     .Headerbar         {width: 100%; margin: 0; position: fixed; top:0; z-index: 100; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
 	.Headerbar h4		{margin-left: 5%; margin-right: 5%}
